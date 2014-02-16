@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # OctOS Packages   
 PRODUCT_PACKAGES += \
+    DSPManager \
     HallMonitor \
     OctOSAbout \
     OctSun \
