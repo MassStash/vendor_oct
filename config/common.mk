@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 # OctOS Packages   
 PRODUCT_PACKAGES += \
     AndroidKernelTweaker \
+    DSPManager \
     HallMonitor \
     LatinIME \
     OctOSAbout \
