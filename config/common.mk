@@ -35,7 +35,11 @@ PRODUCT_COPY_FILES += \
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml]
+    
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/oct/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # OctOS Packages   
 PRODUCT_PACKAGES += \
@@ -43,6 +47,7 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf \
     HallMonitor \
+    LatinIME \
     OctOSAbout \
     OctSun \
     OctOTA \
