@@ -48,6 +48,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AndroidKernelTweaker \
     DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf \
     HallMonitor \
     LatinIME \
     OctOSAbout \
