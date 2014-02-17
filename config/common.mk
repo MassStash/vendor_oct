@@ -40,6 +40,8 @@ PRODUCT_COPY_FILES += \
 # OctOS Packages   
 PRODUCT_PACKAGES += \
     DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf \
     HallMonitor \
     OctOSAbout \
     OctSun \
