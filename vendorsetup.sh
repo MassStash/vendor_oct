@@ -23,8 +23,9 @@ add_lunch_combo oct_jfltexx-userdebug
 #add_lunch_combo oct_m7vzw-userdebug
 add_lunch_combo oct_jewel-userdebug
 add_lunch_combo oct_evita-userdebug
-#add_lunch_combo oct_grouper-userdebug
-#add_lunch_combo oct_tilapia-userdebug
-#add_lunch_combo oct_hammerhead-userdebug
-#add_lunch_combo oct_mako-userdebug
-#add_lunch_combo oct_flo-userdebug
+add_lunch_combo oct_grouper-userdebug
+add_lunch_combo oct_tilapia-userdebug
+add_lunch_combo oct_hammerhead-userdebug
+add_lunch_combo oct_mako-userdebug
+add_lunch_combo oct_flo-userdebug
+
